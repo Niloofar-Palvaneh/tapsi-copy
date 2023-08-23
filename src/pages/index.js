@@ -1,7 +1,7 @@
 
 import Header from "@/components/Header"
 import TapsiServises from "@/components/TapsiServises"
-import Image from "next/image"
+import TapsiWork from "@/components/TapsiWork"
 
 
 
@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <Header />
       <TapsiServises/>
+      <TapsiWork/>
     </>
   )
 }

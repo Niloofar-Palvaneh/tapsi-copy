@@ -11,7 +11,6 @@ export default function TapsiServises() {
         if (opacityBox < 8) {
             setTimeout(() => {
                 setOpacityBox(opacityBox + 1)
-                console.log(opacityBox);
             }, 3000);
         }
         else {
@@ -39,7 +38,7 @@ export default function TapsiServises() {
 
     return (
         <>
-            <div className="mt-[190px] px-32  flex flex-col gap-24 sm:p-0 md:p-8">
+            <div className="mt-[190px] px-32  flex flex-col gap-24 sm:p-0 md:p-8 sm:mt-[110px] md:mt-[150px]">
                 <div className="flex flex-col items-start gap-8  w-full">
                     <Title title="سرویس های تپسی" />
                     <div className="grid grid-cols-7 sm:grid-cols-4 sm:gap-4 w-full">
