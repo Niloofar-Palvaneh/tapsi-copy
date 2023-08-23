@@ -8,6 +8,7 @@ export default function Navbar() {
     const showMobileMenuHandler = () => {
         setShowMobileMenu(!showMobileMenu)
     }
+
     return (
         <>
             <div className="flex items-center justify-around w-full py-2 shadow sticky top-0 bg-white z-50 sm:hidden md:hidden">
@@ -30,7 +31,7 @@ export default function Navbar() {
                 <nav>
                     <div className="navbar">
                         <div className="container nav-container">
-                            <input className="checkbox" type="checkbox" name="" id="" onClick={showMobileMenuHandler} />
+                            <input className="checkbox" type="checkbox" onClick={showMobileMenuHandler} />
                             <div className="hamburger-lines">
                                 <span className="line line1"></span>
                                 <span className="line line2"></span>
@@ -45,7 +46,7 @@ export default function Navbar() {
                 <div className={`flex items-center justify-around w-full py-2 shadow sticky top-0 bg-white z-50
                 ${showMobileMenu ? "inline" : "hidden"}
                 `}>
-                    <ul className="flex gap-6 items-start w-full flex-col pr-4 absolute top-0 bg-white z-50 ">
+                    <ul className="flex gap-6 items-start w-full flex-col pr-4 absolute top-0 bg-white z-50 shadow pb-2 ">
                         <Link href={"#"} className="text-gray-700 hover:text-orange-500">ویدیو ها</Link>
                         <Link href={"#"} className="text-gray-700 hover:text-orange-500">پشتیبانی</Link>
                         <Link href={"#"} className="text-gray-700 hover:text-orange-500">امور سهام</Link>
