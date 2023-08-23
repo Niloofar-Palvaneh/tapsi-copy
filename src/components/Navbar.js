@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Button from "./Button";
 import { useState } from "react";
@@ -13,7 +14,7 @@ export default function Navbar() {
         <>
             <div className="flex items-center justify-around w-full py-2 shadow sticky top-0 bg-white z-50 sm:hidden md:hidden">
                 <div>
-                    TAPSI
+                    <Image src={"/logo.png"} width={100} height={100} alt="logo" />
                 </div>
                 <div>
                     <ul className="flex gap-6 items-center ">
@@ -38,7 +39,7 @@ export default function Navbar() {
                                 <span className="line line3"></span>
                             </div>
                             <div>
-                                TAPSI
+                                <Image src={"/logo.png"} width={100} height={100} alt="logo" />
                             </div>
                         </div>
                     </div>
