@@ -1,13 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { BsTwitter, BsTelegram, BsInstagram, BsLinkedin, BsFacebook } from "react-icons/bs"
+
 export default function Footer() {
 
     return (
         <>
             <div className="bg-slate-950 text-white px-24 py-8 flex justify-between sm:flex-col sm:gap-8 sm:px-2">
                 <div className="flex flex-col gap-4">
-                    <Image src={"/logof.svg"} width={100} height={100}/>
+                    <Image src={"/logof.svg"} width={100} height={100} />
                     <div className="text-[12px] w-[200px] sm:w-full">
                         <h5>اپلیکیشن درخواست خودرو و پیک</h5>
                         <h5 className="text-gray-500">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</h5>
@@ -104,10 +106,14 @@ export default function Footer() {
                     <Image className="rounded" src={"/f2.png"} width={100} height={100} />
                 </div>
             </div>
-            <div className="bg-slate-950 text-white px-24 py-8 flex">
+            <div className="bg-slate-950 text-white px-24 py-8 flex flex-col gap-2">
                 <h5>تپسی در شبکه های اجتماعی</h5>
-                <div>
-                    
+                <div className="flex text-gray-500 items-center gap-4 text-xl">
+                    <BsTwitter  className="hover:text-red-500 transition-all"/>
+                    <BsTelegram  className="hover:text-red-500 transition-all"/>
+                    <BsInstagram  className="hover:text-red-500 transition-all"/>
+                    <BsLinkedin  className="hover:text-red-500 transition-all"/>
+                    <BsFacebook  className="hover:text-red-500 transition-all"/>
                 </div>
             </div>
         </>

@@ -11,7 +11,7 @@ export default function TapsiServises() {
         if (opacityBox < 8) {
             setTimeout(() => {
                 setOpacityBox(opacityBox + 1)
-            }, 3000);
+            }, 8000);
         }
         else {
             setOpacityBox(1)
@@ -23,7 +23,7 @@ export default function TapsiServises() {
         if (tapsiServisesBoxShow < 5) {
             setTimeout(() => {
                 setTapsiServisesBoxShow(tapsiServisesBoxShow + 1)
-            }, 6000);
+            },8000);
         }
         else {
             setTapsiServisesBoxShow(1)
@@ -42,31 +42,31 @@ export default function TapsiServises() {
                 <div className="flex flex-col items-start gap-8  w-full">
                     <Title title="سرویس های تپسی" />
                     <div className="grid grid-cols-7 sm:grid-cols-4 sm:gap-4 w-full">
-                        <div className={`flex items-center justify-center gap-2 flex-col  ${opacityBox === 1 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100 ${opacityBox === 1 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/1.png"} width={100} height={100} alt="..." />
                             <h5>کلاسیک</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col  ${opacityBox === 2 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100  ${opacityBox === 2 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/2.png"} width={100} height={100} alt="..." />
                             <h5>تپسی تلفنی</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col ${opacityBox === 3 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100 ${opacityBox === 3 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/3.png"} width={100} height={100} alt="..." />
                             <h5>تپسی لاین</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col  ${opacityBox === 4 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100  ${opacityBox === 4 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/4.png"} width={100} height={100} alt="..." />
                             <h5>موتوپیک</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col ${opacityBox === 5 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100 ${opacityBox === 5 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/5.png"} width={100} height={100} alt="..." />
                             <h5>اتوپیک</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col  ${opacityBox === 6 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100  ${opacityBox === 6 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/6.png"} width={100} height={100} alt="..." />
                             <h5>تپسی پلاس</h5>
                         </div>
-                        <div className={`flex items-center justify-center gap-2 flex-col  ${opacityBox === 7 ? "opacity-100" : "opacity-50"}`}>
+                        <div className={`flex items-center justify-center gap-2 flex-col transition-all hover:opacity-100  ${opacityBox === 7 ? "opacity-100" : "opacity-50"}`}>
                             <Image src={"/7.png"} width={100} height={100} alt="..." />
                             <h5>همیار</h5>
                         </div>

@@ -82,7 +82,7 @@ export default function TapsiWork() {
                         <div className="bg-white w-[3px] h-[100px] rounded  sm:hidden md:hidden"></div>
                         <li class="group/item flex items-center justify-center flex-col">
                             <h5 className="font-bold text-2xl">
-                                امکانات هوشمندط
+                                امکانات هوشمند
                             </h5>
                             <p className="group/edit invisible mt-2  group-hover/item:visible text-center px-8">
                                 سهولت استفاده از اپلیکیشن با پیشنهاد مبدا و مقصد سفر، مقاصد منتخب و پیشنهادهای ویژه شما

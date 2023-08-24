@@ -18,12 +18,12 @@ export default function Navbar() {
                 </div>
                 <div>
                     <ul className="flex gap-6 items-center ">
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">ویدیو ها</Link>
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">پشتیبانی</Link>
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">امور سهام</Link>
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">تپسی پک</Link>
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">فرصت های شغلی</Link>
-                        <Link href={"#"} className="text-gray-700 hover:text-orange-500">وبلاگ</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">ویدیو ها</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">پشتیبانی</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">امور سهام</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">تپسی پک</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">فرصت های شغلی</Link>
+                        <Link href={"#"} className="text-gray-700 hover:text-orange-500 transition-all">وبلاگ</Link>
                         <Button title="دانلود تپسی" />
                     </ul>
                 </div>
