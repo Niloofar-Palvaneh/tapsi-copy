@@ -9,7 +9,9 @@ export default function Header() {
     return (
         <>
             <div className="bg-[url('/banner.webp')] bg-cover bg-center  px-24 py-12 relative sm:p-4 md:px-4">
-                <div className="w-1/2 bg-b-c rounded-2xl px-12 py-8 flex flex-col gap-8 sm:w-full">
+                <div className="w-[540px] bg-b-c rounded-2xl px-8 py-4 flex flex-col gap-8 sm:w-full mr-24 sm:mr-0 md:mr-0 xl:mr-0 mt-8 sm:mt-0 md:mt-0
+                xl:mt-0
+                ">
                     <div className="flex flex-col gap-6 text-white">
                         <h1 className="text-[48px] font-bold">تپسی</h1>
                         <h2 className="text-2xl">اپلیکیشن درخواست خودرو و پیک</h2>
@@ -22,7 +24,7 @@ export default function Header() {
                         <HeaderBox icon={<AiOutlineArrowDown />} des="دانلود اپلیکیشن رانندگان" style="border border-2 text-white hover:text-gray-200"  />
                     </div>
                 </div>
-                <Image src={"/mobile-h.webp"} width={460} height={100} className="absolute left-[160px] top-[18%] sm:hidden md:left-[70px]"/>
+                <Image src={"/mobile-h.webp"} width={460} height={100} className="absolute left-[160px] top-[18%] sm:hidden md:left-[70px] xl:hidden"/>
             </div>
         </>
     )
