@@ -40,9 +40,9 @@ export default function TapsiBest() {
                     </div>
 
                     <div className="flex flex-col gap-4">
-                        <h6 className="text-2xl flex items-center gap-2">
-                            استفاده از مزایای
-                            <Link href={"#"} className="text-blue-500">
+                        <h6 className="text-2xl contents ">
+                            مزایای استفاده از
+                            <Link href={"#"} className="text-blue-500 contents ">
                                 باشگاه رانندگان تپسی
                             </Link>
                         </h6>

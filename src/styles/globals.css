@@ -41,12 +41,17 @@ body {
   direction: rtl;
 }
 
+.line-count{
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-align: justify;
+  display: -webkit-box;
+}
 
 
 .container {
-  /* max-width: 1050px; */
   width: 100%;
-  /* margin: auto; */
 }
 
 .navbar {
